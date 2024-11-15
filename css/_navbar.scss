@@ -1,0 +1,18 @@
+// _navbar.scss
+nav {
+    box-shadow: $shadow-light;
+    z-index: 1;
+    position: relative;
+  
+    .fa-arrow-left {
+      visibility: hidden;
+    }
+  
+    .Logo-img {
+      width: 300px;
+      margin: 10px auto;
+      display: block;
+      align-content: center;
+    }
+  }
+  
