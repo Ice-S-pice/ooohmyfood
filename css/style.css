@@ -6,6 +6,7 @@ html, body {
 .section {
   padding: 20px;
   margin: auto;
+  
 }
 
 .section-wrapper {
@@ -559,4 +560,50 @@ p {
       width: 100%; 
       text-align: left; 
   }
+}
+/* Style de la barre de navigation */
+
+
+.Logo-img {
+  height: 50px;
+}
+
+/* Style du conteneur de la barre de recherche */
+.search-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 10px;  /* Réduit l'espace autour du conteneur */
+  background: rgba(234, 234, 234, 1);
+}
+
+
+/* Style de l'input de la barre de recherche */
+.search-container input {
+  border: none;
+  outline: none;
+  padding: 10px;
+  font-size: 14px;
+  width: 250px; /* Taille de la barre de recherche */
+  background: rgba(234, 234, 234, 1);
+}
+
+/* Style du bouton de recherche */
+.search-button {
+   background: rgba(234, 234, 234, 1);;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  margin-left: 5px;
+  border-radius: 50%;
+}
+
+.search-button i {
+  font-size: 18px;
+  color: #333;
+}
+
+/* Effet au survol du bouton de recherche */
+.search-button:hover {
+  background: rgba(234, 234, 234, 1);
 }
